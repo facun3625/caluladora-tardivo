@@ -5,72 +5,72 @@
 <title>Documento sin título</title>
 <style>
 .button {
-	background-color: #B20000; /* Green */
+	background-color: #315ba7; /* Green */
   border: none;
   color: white;
-  padding: 13px 20px;
+  padding: 20px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
+  font-family:"Montserrat", sans-serif;
   font-size: 12px;} /* Blue */
+
   .button2 {
 	background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 13px 5px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
+  font-family:"Montserrat", sans-serif;
   font-size: 12px;} /* Blue */
   .box {
-	background-color: #ccc; /* Green */
+	background-color: rgb(238, 238, 238); /* Green */
   border: none;
-  color: #000;
-  padding: 10px 5px;
+  color: #315ba7;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
+  font-family:"Montserrat", sans-serif;
+  width: 400px;
   font-size: 12px;} /* Blue */
-    
-.titulo {background-color: #315BA7; /* Green */
+  .box2 {
+	background-color: rgb(238, 238, 238); /* Green */
   border: none;
-  color: white;
+  color: #315ba7;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:"Montserrat", sans-serif;
+  width: 300px;
+  height: 35px;
+  font-size: 12px;} /* Blue */
+  .titulo {
+  background-color: #fff;
+  border: 2px solid #315ba7;
+  color: #315ba7;
   padding: 10px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 15px;}
-.button1 {background-color: #B20000; /* Green */
+  font-family:"Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;} /* Blue */
+  
+  .tabla {
+	background-color: #fff; /* Green */
   border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
-.button21 {background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
-.tabla {background-color: #fff; /* Green */
-  border: none;
-  color: #000;
+  color: #3f3f3f;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;} /* Blue */
+    
 </style>
 </head>
 

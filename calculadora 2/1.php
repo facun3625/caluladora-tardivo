@@ -1,10 +1,8 @@
-<?
-  include ("valores.php"); 
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <title>Documento sin título</title>
 <style>
 .button {
@@ -16,7 +14,7 @@
   text-decoration: none;
   display: inline-block;
   font-family:"Montserrat", sans-serif;
-  font-size: 14px;} /* Blue */
+  font-size: 12px;} /* Blue */
 
   .button2 {
 	background-color: #4CAF50; /* Green */
@@ -77,42 +75,39 @@
 </style>
 </head>
 
-
-
 <body>
-<table width="400" border="0" align="center" >
+<table width="500" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td class="tabla">&nbsp;</td>
+    <td width="500" colspan="4" align="center" class="titulo">CALCULADORA INDEMNIZACION<br />
+      POR DESPIDO</td>
   </tr>
   <tr>
-    <td class="tabla"><?php 
+    <td align="center"><span class="tabla"><form id="form1" name="form1" method="post" action="resultado.php">
+        <br> <input placeholder="Remuneración" type="text" name="a" id="a" class="box" required /> 
+    
+    <br> <input placeholder="Años de Antiguedad" type="text" name="b" id="b" class="box" required/> 
+    
+    <br> <input placeholder="Día del mes que lo Despidieron" type="text" name="c" id="c" class="box" required/> 
+    
+	  <br><br>
+    <label> Seleccione Antigüedad<br><br>
+      <select class="box2" id="antiguedad" name="e" required>
+      <option value="">Seleccione una opción</option>
+        <option value="14">Antigüedad menor a 5 años</option>
+        <option value="21">Antigüedad de 5 a 10 años</option>
+        <option value="28">Antigüedad de más de 10 años</option>
+        
+      </select></label>
+      <br>
+      <br> <input placeholder="Cantidad de Dias Trabajados en el Semestre (para el Aguinaldo)" type="text" name="f" id="f" class="box" required/> 
+      <br>
+      <br> <br><input type="submit" name="button2" class="button" id="button2" value="Calcular Indemnización" />
+     
 
-$numero3 = $_POST['numero3'];
-$numero4 = $_POST['numero4'];
-$numero5 = $_POST['numero5'];
-$numero1 = 53;
-$numero2 = 100;
-$numero6 = 65;
-
-$operacion1 = $numero5 *53;
-$operacion2 = $numero4 /100;
-$operacion3 = 65/ $numero3;
-$operacion4 = $operacion1 * $operacion3 + $numero33 ;
-$operacion5 = sprintf('%.2f', $operacion4);
-
-?>
-      Edad al momento del accidente: <?php echo $numero3 ?><br />
-      Porcentaje de incapacidad: <?php echo $numero4 ?><br />
-      Ingreso Base: $<?php echo $numero5 ?><br />
-      <br />
-      <span class="button"> Indemnización Correspondiente: $<?php echo $operacion5 ?></span><br />
-      <br />
-      <br />
-      <a href="1.php" class="button2">Limpiar Filtros</a><br />
-    <br /></td>
+    </span></td>
+</form>
   </tr>
 </table>
 
 
 </body>
-</html>

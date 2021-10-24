@@ -3,34 +3,74 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Documento sin título</title>
-<style type="text/css">
-.button {background-color: #B20000; /* Green */
+<style>
+.button {
+	background-color: #315ba7; /* Green */
   border: none;
   color: white;
-  padding: 13px 20px;
+  padding: 20px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
-.button2 {background-color: #4CAF50; /* Green */
+  font-family:"Montserrat", sans-serif;
+  font-size: 14px;} /* Blue */
+
+  .button2 {
+	background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 13px 5px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
-.tabla {background-color: #fff; /* Green */
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;} /* Blue */
+  .box {
+	background-color: rgb(238, 238, 238); /* Green */
   border: none;
-  color: #000;
+  color: #315ba7;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:"Montserrat", sans-serif;
+  width: 400px;
+  font-size: 12px;} /* Blue */
+  .box2 {
+	background-color: rgb(238, 238, 238); /* Green */
+  border: none;
+  color: #315ba7;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:"Montserrat", sans-serif;
+  width: 300px;
+  height: 35px;
+  font-size: 12px;} /* Blue */
+  .titulo {
+  background-color: #fff;
+  border: 2px solid #315ba7;
+  color: #315ba7;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:"Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;} /* Blue */
+  
+  .tabla {
+	background-color: #fff; /* Green */
+  border: none;
+  color: #3f3f3f;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 12px;}
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;} /* Blue */
+    
 </style>
 </head>
 
@@ -58,13 +98,14 @@ $operacion3 = 65/ $numero3;
 $operacion4 = $operacion1 * $operacion2 * $operacion3 * 0.20 ;
 $operacion5 = $operacion4 + $numero5 * $numero1 * $operacion2 * $operacion3;
 $operacion6 = $operacion5 + $numero7;
+$operacion7 = sprintf('%.2f', $operacion6);
 
 ?>
       Edad al momento del accidente: <?php echo $numero3 ?><br />
       Porcentaje de incapacidad: <?php echo $numero4 ?><br />
-      Ingreso Base: <?php echo $numero5 ?><br />
+      Ingreso Base: $<?php echo $numero5 ?><br />
       <br />
-      <span class="button"> Indemnización Correspondiente: <?php echo $operacion6 ?></span><br />
+      <span class="button"> Indemnización Correspondiente: $<?php echo $operacion7 ?></span><br />
       <br />
       <br />
       <a href="1.php" class="button2">Limpiar Filtros</a><br />
