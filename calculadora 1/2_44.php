@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <title>Documento sin título</title>
 <style>
 .button {
@@ -75,9 +76,9 @@
 </head>
 
 <body>
-<table width="400" align="center" cellpadding="0" cellspacing="0">
+<table width="500" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="390" colspan="4" align="center" class="titulo">CALCULADORA INDEMNIZACION<br />
+    <td width="500" colspan="4" align="center" class="titulo">CALCULADORA INDEMNIZACION<br />
       ACCIDENTE DE TRABAJO</td>
   </tr>
 </table>
@@ -94,8 +95,8 @@
     <td align="center">&nbsp;</td>
   </tr>
   <tr>
-    <td width="200" align="center"><a href="#" class="button1">En el lugar de tabajo</a></td>
-    <td width="200" align="center"><a href="2b.php" class="button21">Fuera del lugar de trabajo</a></td>
+    <td width="200" align="center"><a href="#" class="button">En el lugar de tabajo</a></td>
+    <td width="200" align="center"><a href="2b.php" class="button2">Fuera del lugar de trabajo</a></td>
   </tr>
   <tr>
     <td>&nbsp;</td>

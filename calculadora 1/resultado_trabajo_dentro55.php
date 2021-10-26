@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <title>Documento sin título</title>
 <style>
 .button {
@@ -81,7 +82,8 @@
 
 
 <body>
-<table width="400" border="0" align="center" >
+<table width="5
+00" border="0" align="center" >
   <tr>
     <td class="tabla">&nbsp;</td>
   </tr>
