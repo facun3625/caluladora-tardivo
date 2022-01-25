@@ -119,21 +119,21 @@
     </tr>
     <tr>
       <td align="center"><label for="textfield4"></label>
-        <input name="numero4" type="number" class="box" id="textfield4"  width="100%"   max="65" min="51"  /></td>
+        <input name="numero4" type="number" class="box" id="textfield4"  width="100%"   max="65" min="51"  required/></td>
     </tr>
     <tr>
       <td align="center"><span class="tabla">Edad al momento del accidente </span></td>
     </tr>
     <tr>
       <td width="238" align="center"><label for="textfield5"></label>
-        <input type="text" name="numero3" class="box" width="100%" id="textfield5" /></td>
+        <input type="text" name="numero3" class="box" width="100%" id="textfield5" required/></td>
     </tr>
     <tr>
       <td align="center"><span class="tabla">Ingreso Base</span></td>
     </tr>
     <tr>
       <td align="center"><label for="textfield6"></label>
-        <input type="text" name="numero5" class="box" width="100%" id="textfield6" /></td>
+        <input type="text" name="numero5" class="box" width="100%" id="textfield6" required/></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
